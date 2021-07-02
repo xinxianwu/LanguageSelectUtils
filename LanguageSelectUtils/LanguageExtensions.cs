@@ -22,9 +22,9 @@ namespace LanguageSelectUtils
                 .FirstOrDefault() ?? "";
 
 
-            return language == LanguageEnum.DefaultLanguage || !string.IsNullOrEmpty(name)
+            return language == LanguageEnum.En || !string.IsNullOrEmpty(name)
                 ? name
-                : model.GetName(LanguageEnum.DefaultLanguage);
+                : model.GetName(LanguageEnum.En);
         }
     }
 }

@@ -25,7 +25,7 @@ namespace LanguageSelectUtils.Test
 
             fakeLeagueModel.GetName(LanguageEnum.Ch).Should().BeEquivalentTo("中文");
             fakeLeagueModel.GetName(LanguageEnum.Cn).Should().BeEquivalentTo("简中");
-            fakeLeagueModel.GetName(LanguageEnum.DefaultLanguage).Should().BeEquivalentTo("English");
+            fakeLeagueModel.GetName(LanguageEnum.En).Should().BeEquivalentTo("English");
         }
         
         /// <summary>
@@ -55,7 +55,7 @@ namespace LanguageSelectUtils.Test
         public string LeagueNameCh { get; set; }
         [Language(LanguageEnum.Cn)]
         public string LeagueNameCn { get; set; }
-        [Language(LanguageEnum.DefaultLanguage)]
+        [Language(LanguageEnum.En)]
         public string LeagueNameEn { get; set; }
     }
     

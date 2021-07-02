@@ -2,7 +2,10 @@
 {
     public enum LanguageEnum
     {
-        DefaultLanguage,
+        /// <summary>
+        /// Default Language
+        /// </summary>
+        En,
         /// <summary>
         /// Chinese
         /// </summary>
