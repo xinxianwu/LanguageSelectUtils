@@ -1,0 +1,25 @@
+<package >
+    <metadata>
+        <!-- Required elements-->
+        <id>LanguageSelectUtils</id>
+        <version>1.0.0.1</version>
+        <description>Select multip language model</description>
+        <authors>Xinxian Wu</authors>
+
+        <!-- Optional elements -->
+        <!-- ... -->
+		
+		<dependencies>
+
+		</dependencies> 
+		
+    </metadata>
+    <!-- Optional 'files' node -->
+	<files>
+		<file src=".\LanguageSelectUtils\bin\Release\netstandard2.0\LanguageSelectUtils.dll" target="lib\netstandard2.0" />
+		<file src=".\LanguageSelectUtils\bin\Release\netstandard2.0\LanguageSelectUtils.pdb" target="lib\netstandard2.0" />
+	
+	</files>
+	
+  
+</package>
